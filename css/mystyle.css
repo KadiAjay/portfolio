@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Kannada&family=Beau+Rivage&family=Edu+QLD+Beginner&family=Merriweather&family=Sacramento&display=swap');
+body{
+    margin: 0;
+    text-align: center;
+    font-family:'merriweather',serif;
+
+}
+h1{
+    color:#66bfbf;
+    margin-top:0px;
+    font-family: 'Edu QLD Beginner', cursive;
+    /* font-family:'sacrimento', cursive; */
+    font-size: 90px;
+    line-height: 2;
+
+}
+h2{
+    color: #66bfbf;
+    font-family: 'Edu QLD Beginner', cursive;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 2.5em;
+    font-weight: normal;
+}
+h3{
+    font-family: 'Anek Kannada', sans-serif;
+    color: #66bfbf;
+    font-size: 2.5em;
+}
+p{
+line-height: 2;
+}
+.middle-container{
+    margin:50px 0px;
+    padding:5px;
+
+}
+.final{
+    background-color:#66bfbf;
+    position: relative;
+    top: 20px;
+}
+.bottom-container{
+    margin-top: 30px;
+    display: inline-flex;
+    gap: 30px;
+}
+.top-container{
+    background-color:#BFDCE5;
+    position: relative;  
+    height:100%;
+
+}
+
+.pro{
+    text-decoration:underline;
+    
+}
+.bottom-cloud{
+    position:absolute;
+    left: 300px;
+    bottom: 300px;
+
+}
+.top-cloud{
+    position: absolute;
+    right:300px;
+    top:50px;
+}
+
+.skills{
+    position: relative;
+    left: 380px;
+    width: 50%;
+    margin-left: 20px auto;
+}
+
+.skill-row{
+    position: relative;
+    line-height:2;
+}
+.computer{
+    width:15%;
+    margin-left:30px;
+    float:left;
+}
+.coding{
+    float:right;
+    width:15%;
+    margin-right: 30px;
+}
+.intro{
+    width:30%;
+    margin:20px auto 20px auto;
+}
+hr{
+    border: dotted;
+    border-width: 4%;
+    width:20%;
+    border-bottom: none;
+    border-color:#66bfbf;
+}
+
+.star{
+    align-items: center;
+    margin: 10px;
+    padding: 5px;
+    display: inline-flex;
+}
+
+.profile img {
+    height: 400px;
+
+}
+
+/*  font-family: 'Beau Rivage', cursive;
+font-family: 'Edu QLD Beginner', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Sacramento', cursive;*/
